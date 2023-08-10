@@ -15,5 +15,3 @@ const connection = new Connection("https://api.devnet.solana.com");
     console.error(`Oops, something went wrong: ${e}`)
     }
     })();
-    
-

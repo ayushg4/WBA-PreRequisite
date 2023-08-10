@@ -1,3 +1,4 @@
+
 import { Connection, Keypair, SystemProgram, PublicKey } from "@solana/web3.js";
 import { Program, Wallet, AnchorProvider, Address } from "@project-serum/anchor";
 import { WbaPrereq, IDL } from "./programs/wba_prereq";
@@ -8,7 +9,7 @@ import wallet from "./wba-wallet.json"
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Create a devnet connection
-const connection = new Connection("https://api.devnet.solana.com%22/");
+const connection = new Connection("https://api.devnet.solana.com/");
 
 // Github account
 const github = Buffer.from("thisissamridh", "utf8");
