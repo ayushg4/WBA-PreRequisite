@@ -1,8 +1,8 @@
 wba-wallet.json
+dev-wallet.json
 node_modules/
 dist/
-.gitignore
 notes.txt
-tsconfig.jdon
+tsconfig.json
 yarn-error.log
 yarn.lock
